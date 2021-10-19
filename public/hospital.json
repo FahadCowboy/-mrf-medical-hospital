@@ -1,0 +1,141 @@
+[
+  {
+     "services": [
+      {
+        "_id": "1",
+        "picture": "https://media.istockphoto.com/photos/senior-female-lecturer-assists-medical-students-during-class-picture-id1167849809?k=20&m=1167849809&s=612x612&w=0&h=bTT0F0RQ5lW5QmxVFBDu9_0SF-Qd_2nLs6QURqODLGE=",
+        "name": "Health Education",
+        "description": "Educational speakers from Trinity Hospital Twin City can be scheduled to conduct a complimentary presentation at your business, school or civic club meeting. Additionally, Trinity Hospital Twin City hosts several free educational one-hour mini seminars on health topics throughout each year. Check our events listing for any upcoming mini seminars. ",
+        "care": ["Educational Seminars", "Fit For Life Classes", "Health Screenings"],
+        "phone": "922-7450, ext. 2124"
+      },
+      {
+        "_id": "2",
+        "picture": "https://alternityhealthcare.com/wp-content/uploads/2019/07/alternity-healthcare-cardiopulmonary-exercise-test-CPET.png",
+        "name": "Cardiopulmonary",
+        "description": "For those recovering from heart ailments or who have chronic breathing problems, Trinity Health System Twin City Medical Center offers cardiac and pulmonary rehabilitation services. Those who have a doctor’s order are encouraged to call the hospital’s central scheduling phone line at 740-922-7405 to be placed on the patient list for rehabilitation.",
+        "care": ["Advanced Cardiac & Pulmonary Imaging/Testing", "Blood Pressure Monitoring", "Cardiac & Pulmonary Rehab", "Holter/Heart Monitoring", "Pacemaker Monitoring", "Stress Testing"],
+        "phone": "740-922-2800, x2270"
+      },
+      {
+        "_id": "3",
+        "picture": "https://info.blockimaging.com/hubfs/x-ray-service-cost-guide.jpg",
+        "name": "Imaging & X-Ray Services",
+        "description": "Imaging Services Print Page Choose Trinity Health System Twin City Medical Center for all your imaging/radiology needs. No matter where your physician’s office is located, you can choose to have your tests done at our hospital’s Imaging Services Department. We will use our digital technology to send your test results back to your physician quickly.  ",
+        "care": ["Bone Density Testing", "CT Scan", "Digital Mammography", "MRI", "Nuclear Medicine", "Ultrasound"],
+        "phone": "740-922-7405"
+      },
+      {
+        "_id": "4",
+        "picture": "https://media.istockphoto.com/photos/women-receives-iv-drip-treatment-picture-id1197650065?k=20&m=1197650065&s=612x612&w=0&h=Xo0xeln_VMAQxFvCcig6PCvBwc8gJzgUbLoIClIDERg=",
+        "name": "Injection & Infusion Clinic Services",
+        "description": "Injection & Infusion Center Print Page Offering specialized and innovative treatment for a variety of medical conditions like multiple sclerosis, kidney disease, and Crohn’s disease without hospital admission, the Trinity Health System Twin City Medical Center Injection & Infusion Center provides patients with a quicker admissions process while undergoing outpatient procedures in a warm, comfortable setting.",
+        "care": ["Coumadin Clinic", "IV Therapy", "Ultrasound"],
+        "phone": "740-922-705"
+      },
+      {
+        "_id": "5",
+        "picture": "https://media.istockphoto.com/photos/woman-and-cpap-mask-healthcare-concept-picture-id864401368?k=20&m=864401368&s=612x612&w=0&h=tUPWSFjaORf3vsa330hj45IB9pidBWhL9k-wIXd_73Y=",
+        "name": "Sleep Medicine Services",
+        "description": "Sufficient sleep is vital for good overall health. Insufficient sleep is a problem that affects more than 28% of adults. According to the National Sleep Foundation, sleep impairment is linked as a contributing factor to motor vehicle crashes, industrial disasters, there were 3,403 crashes involving sleepy drivers in Ohio in 2011.",
+        "care": ["Diagnosis & Treatment", "Sleep Lab", "Coumadin Clinic"],
+        "phone": "(740) 922-7405"
+      },
+      {
+        "_id": "6",
+        "picture": "https://cpd-solutions.com/store/wp-content/uploads/2019/02/MSP130-Physiotherapy-Management-of-Children-and-Young-People-with-Cerebral-Palsy-May-2019-SHOP.png",
+        "name": "Rehabilitation Services",
+        "description": "Located on hospital grounds at 6408 McKee Road in Dennison, adjacent to the Hospital Helipad, the Trinity Health System Twin City Medical Center  Rehab Center provides outpatient physical therapy, inpatient occupational therapy and inpatient speech therapy services. The Center is equipped with private treatment rooms, adjacent parking with an easily accessible restroom.",
+        "care": ["Physical, Occupational and Speech Therapy", "Swing Bed Program", "Transition Program", "Pacemaker Monitoring", "Stress Testing"],
+        "phone": "922-2800, x2270"
+      }
+    ],
+
+    "specialists": [
+      {
+        "_id": "1",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142741_OECm2808Lfc.jpg",
+        "name": "Rocha Lester",
+        "specialist": "ENT",
+        "experience": 15
+      },
+      {
+        "_id": "2",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142721_BR0AU8vWPu.jpg",
+        "name": "Elisa Clark",
+        "specialist": "Cardiology",
+        "experience": 22
+      },
+      {
+        "_id": "3",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142710_SI_HmU1KZ.jpg",
+        "name": "Whitney Hogan",
+        "specialist": "Psychology",
+        "experience": 13
+      },
+      {
+        "_id": "4",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142710_SI_HmU1KZ.jpg",
+        "name": "Wilcox Potts",
+        "specialist": "Neurology",
+        "experience": 18
+      },
+      {
+        "_id": "5",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142642_Qy9BFBoWg7.jpg",
+        "name": "Letha Horn",
+        "specialist": "Orthopedix",
+        "experience": 5
+      },
+      {
+        "_id": "6",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142628_bevWY1-MNsG8.jpg",
+        "name": "Rosario Bowman",
+        "specialist": "Medicine",
+        "experience": 9
+      },
+      {
+        "_id": "7",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142549_4rMxCFEkdaA.jpg",
+        "name": "Olson Singleton",
+        "specialist": "Sergery",
+        "experience": 15
+      },
+      {
+        "_id": "8",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142509_6Vazy1ZsqhI.jpg",
+        "name": "Bonner Robertson",
+        "specialist": "Cardiopulmonary",
+        "experience": 11
+      },
+      {
+        "_id": "9",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142345_iVvDTkANtQdB.jpg",
+        "name": "Rosie Noel",
+        "specialist": "Skin",
+        "experience": 9
+      },
+      {
+        "_id": "10",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142538_5eg9Q9jA6.jpg",
+        "name": "Nadia Riley",
+        "specialist": "X-Ray",
+        "experience": 7
+      },
+      {
+        "_id": "11",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142331_BUv4mq8RVO.jpg",
+        "name": "Araceli Mooney",
+        "specialist": "Ultrasonography",
+        "experience": 15
+      },
+      {
+        "_id": "12",
+        "picture": "https://ik.imagekit.io/xqucpzloy5c/doctors/IMG_20211019_142315_UcHRZ9gKtyN.jpg?updatedAt=1634632395906",
+        "specialist": "Cancer",
+        "name": "Avery Gay",
+        "experience": 12
+      }
+    ]
+  }
+]
