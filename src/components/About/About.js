@@ -24,11 +24,11 @@ const About = () => {
             <h2 className="text-center fw-normal">Mission</h2>
             <h5 className="text-center fw-normal">Deliver QUALITY health care within 5 CORE standards</h5>
             <div className="mt-5">
-               <p className="fs-5 text-warning text-center"><span className="fw-bold fs-3 text-danger">*</span> Adhering to high ethical and moral standards at all times <span className="fw-bold fs-3 text-danger">*</span></p>
-               <p className="fs-5 text-warning text-center"><span className="fw-bold fs-3 text-danger">*</span> Making service quality top priority in all we do <span className="fw-bold fs-3 text-danger">*</span></p>
-               <p className="fs-5 text-warning text-center"><span className="fw-bold fs-3 text-danger">*</span> Training staff to work within a quality care environment <span className="fw-bold fs-3 text-danger">*</span></p>
-               <p className="fs-5 text-warning text-center"><span className="fw-bold fs-3 text-danger">*</span> Providing quality health care service in all processes <span className="fw-bold fs-3 text-danger">*</span></p>
-               <p className="fs-5 text-warning text-center"><span className="fw-bold fs-3 text-danger">*</span> Delivering customer satisfaction through quality service <span className="fw-bold fs-3 text-danger">*</span></p>
+               <p className="fs-5 text-danger text-center"><span className="fw-bold fs-3 text-primary">*</span> Adhering to high ethical and moral standards at all times <span className="fw-bold fs-3 text-primary">*</span></p>
+               <p className="fs-5 text-danger text-center"><span className="fw-bold fs-3 text-primary">*</span> Making service quality top priority in all we do <span className="fw-bold fs-3 text-primary">*</span></p>
+               <p className="fs-5 text-danger text-center"><span className="fw-bold fs-3 text-primary">*</span> Training staff to work within a quality care environment <span className="fw-bold fs-3 text-primary">*</span></p>
+               <p className="fs-5 text-danger text-center"><span className="fw-bold fs-3 text-primary">*</span> Providing quality health care service in all processes <span className="fw-bold fs-3 text-primary">*</span></p>
+               <p className="fs-5 text-danger text-center"><span className="fw-bold fs-3 text-primary">*</span> Delivering customer satisfaction through quality service <span className="fw-bold fs-3 text-primary">*</span></p>
             </div>
          </div>
       </div>

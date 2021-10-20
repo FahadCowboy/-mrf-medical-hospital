@@ -50,7 +50,7 @@ const Login = () => {
    // console.log(error)
    return (
       <div className="form-container d-flex justify-content-center align-items-center">
-         <div className="form-wrapper p-4 border border-light">
+         <div className="form-wrapper bg-white p-4 border border-light">
             <h2 className="text-primary">Login your account</h2>
             <form onSubmit={handleLogin} className="">
                <div className="mb-3">

@@ -47,7 +47,7 @@ const Signup = () => {
 
    return (
       <div className="form-container d-flex justify-content-center align-items-center">
-         <div className="container form-wrapper p-4 border border-light">
+         <div className="container form-wrapper bg-white p-4 border border-light">
             <h2 className="text-primary">Create new account</h2>
             <form onSubmit={handleRegistration} className="">
                <div className="mb-3">
