@@ -14,9 +14,9 @@ const Header = () => {
             <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between text-white">
                <div>
                   <Link to="/home" className="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-                  <img src="" alt="" />
-                  </Link>
+                  <img className="logo" src="https://ik.imagekit.io/xqucpzloy5c/Octagon-logo-2_Hefz5yBOjxD.jpg" alt="" />
                   <h3 className="text-color">MRF Medical College</h3>
+                  </Link>
                </div>
                
 

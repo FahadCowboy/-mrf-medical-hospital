@@ -7,5 +7,10 @@
 }
 
 .text-color{
-   color:rgb(113, 206, 105)
+   color: rgb(235 243 169)
+}
+
+.logo{
+   width: 3rem;
+   margin-right: 0.4rem;
 }
