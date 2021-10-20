@@ -1,7 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { useState } from 'react/cjs/react.development';
+import { Link, useLocation, useHistory } from 'react-router-dom';
+import { useState } from 'react';
 import useAuth from '../../hooks/useAuth';
 import './Login.css'
 
@@ -9,7 +9,11 @@ const Login = () => {
    const [email, setEmail] = useState('')
    const [Password, setPassword] = useState('')
    const [errorPassword, setErrorPassword] = useState('')
+   const history = useHistory()
    const {signinWithGoogle, user, loginUser, error, loginWithEmailPassword} = useAuth()
+
+   const location = useLocation()
+   const redirect_uri = location.state?.from || '/home'
 
    const handleEmail = e => {
       setEmail(e.target.value)
@@ -23,6 +27,15 @@ const Login = () => {
       e.preventDefault()
 
       loginWithEmailPassword(email, Password)
+   }
+
+   const handleGoogleLogin = () => {
+      signinWithGoogle()
+      .then(result => {
+         const user = result.user
+         // setUser(user)
+         history.push(redirect_uri)
+      })
    }
 
    console.log(loginUser)
@@ -46,13 +59,13 @@ const Login = () => {
                </div>
                <div className="d-flex flex-column">
                   <button type="submit" className="btn btn-primary">Login</button>
-                  <button type="button" className="btn btn-outline-warning mt-2" onClick={signinWithGoogle}>Login with Goole</button>
-                  <Link to="/signup" className="mt-2">Not registered yet?</Link>
+                  <button type="button" className="btn btn-outline-warning mt-2" onClick={handleGoogleLogin}>Login with Goole</button>
+                  <Link to="/signup" className="mt-2">but Not registered yet?</Link>
                </div>
             </form>
          </div>
       </div>
    );
 };
-
+// signinWithGoogle
 export default Login;

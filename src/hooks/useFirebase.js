@@ -15,11 +15,8 @@ const useFirebase = () => {
    
 
    const signinWithGoogle = () => {
-      signInWithPopup(auth, googleProvider)
-      .then(result => {
-         const user = result.user
-         setUser(user)
-      })
+      return signInWithPopup(auth, googleProvider)
+      
       .catch(error => {
          const errorMessage = error.message
          setError(errorMessage)
@@ -49,18 +46,6 @@ const useFirebase = () => {
 
       
    }
-
-   // const addName = name => {
-   //    updateProfile(auth.currentUser, { displayName: name })
-   //    .then(result => {
-   //       // Profile updated!
-   //       // ...
-   //    })
-   //    .catch((error) => {
-   //       // An error occurred
-   //       // ...
-   //    });
-   // }
 
    const loginWithEmailPassword = (email, password) => {
       signInWithEmailAndPassword(auth, email, password)
