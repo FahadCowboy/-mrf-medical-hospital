@@ -1,6 +1,6 @@
 # Welcome to MRF Medical College
 
-Live site link: [Create React App](https://github.com/facebook/create-react-app).
+Live site link: [MRF Medical College](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
