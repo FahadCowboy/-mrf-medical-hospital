@@ -2,16 +2,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react/cjs/react.development';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 import './Signup.css'
 
 
 const Signup = () => {
    const [email, setEmail] = useState('')
    const [Password, setPassword] = useState('')
+   const [name, setName] = useState('')
    const [errorPassword, setErrorPassword] = useState('')
 
-   const {user, error, registerWithEmailPassword} = useFirebase()
+   const {user, error, registerWithEmailPassword} = useAuth()
 
    const handleEmail = e => {
       setEmail(e.target.value)
@@ -19,6 +20,10 @@ const Signup = () => {
 
    const handlePassword = e => {
       setPassword(e.target.value)
+   }
+
+   const handleName = e => {
+      setName(e.target.value)
    }
 
    const handleRegistration = e => {
@@ -37,12 +42,9 @@ const Signup = () => {
       } else{
          setErrorPassword('')
       }
-
-      registerWithEmailPassword(email, Password)
+      registerWithEmailPassword(name, email, Password)
    }
 
-   console.log(error)
-   console.log(user)
    return (
       <div className="form-container d-flex justify-content-center align-items-center">
          <div className="container form-wrapper p-4 border border-light">
@@ -50,7 +52,7 @@ const Signup = () => {
             <form onSubmit={handleRegistration} className="">
                <div className="mb-3">
                   <label htmlFor="fullName" className="form-label">Full Name</label>
-                  <input type="text" className="form-control" id="fullName" aria-describedby="fullName" required/>
+                  <input onBlur={handleName} type="text" className="form-control" id="fullName" aria-describedby="fullName" required/>
                </div>
                <div className="mb-3">
                   <label htmlFor="exampleInputEmail1" className="form-label">Email</label>

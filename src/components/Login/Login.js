@@ -2,14 +2,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react/cjs/react.development';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 import './Login.css'
 
 const Login = () => {
    const [email, setEmail] = useState('')
    const [Password, setPassword] = useState('')
    const [errorPassword, setErrorPassword] = useState('')
-   const {signinWithGoogle, user, error, loginWithEmailPassword} = useFirebase()
+   const {signinWithGoogle, user, loginUser, error, loginWithEmailPassword} = useAuth()
 
    const handleEmail = e => {
       setEmail(e.target.value)
@@ -25,7 +25,7 @@ const Login = () => {
       loginWithEmailPassword(email, Password)
    }
 
-   // console.log(user)
+   console.log(loginUser)
    // console.log(error)
    return (
       <div className="form-container d-flex justify-content-center align-items-center">
