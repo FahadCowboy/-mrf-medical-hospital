@@ -26,13 +26,21 @@ const Login = () => {
    const handleLogin = e => {
       e.preventDefault()
 
-      loginWithEmailPassword(email, Password)
+      
    }
 
    const handleGoogleLogin = () => {
       signinWithGoogle()
       .then(result => {
          const user = result.user
+         // setUser(user)
+         history.push(redirect_uri)
+      })
+   }
+   const handleEmailPaaLogin = () => {
+      loginWithEmailPassword(email, Password)
+      .then(result => {
+         // const user = result.user
          // setUser(user)
          history.push(redirect_uri)
       })
@@ -58,7 +66,7 @@ const Login = () => {
                   <label className="form-check-label" htmlFor="exampleCheck1">Keep me logged in</label>
                </div>
                <div className="d-flex flex-column">
-                  <button type="submit" className="btn btn-primary">Login</button>
+                  <button type="submit" className="btn btn-primary" onClick={handleEmailPaaLogin}>Login</button>
                   <button type="button" className="btn btn-outline-warning mt-2" onClick={handleGoogleLogin}>Login with Goole</button>
                   <Link to="/signup" className="mt-2">but Not registered yet?</Link>
                </div>

@@ -48,7 +48,7 @@ const useFirebase = () => {
    }
 
    const loginWithEmailPassword = (email, password) => {
-      signInWithEmailAndPassword(auth, email, password)
+      return signInWithEmailAndPassword(auth, email, password)
       .then(result => {
          const user = result.user
          setLoginUser(user)
